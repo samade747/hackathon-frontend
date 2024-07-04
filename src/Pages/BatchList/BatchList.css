@@ -1,0 +1,45 @@
+.batchList{
+    flex: 4;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.batchListItem{
+    display: flex;
+    align-items: center;
+    
+}
+
+.batchListbatch {
+    display: flex;
+    align-items: center;
+}
+
+.batchListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.batchListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.batchListDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

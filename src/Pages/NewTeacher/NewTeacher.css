@@ -1,0 +1,110 @@
+.newTeacher {
+    flex: 4;
+    margin-left: 20px;
+}
+
+.newTeacherTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newTeacherSelect {
+    height: 40px;
+    border-radius: 5px;
+    width: 105%;
+}
+
+.newTeacherItemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newTeacherForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.newTeacherItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.newTeacherItem>label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.newTeacherItem>input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newTeacherGender>input {
+    margin-top: 15px;
+}
+
+.newTeacherGender>label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newTeacherGenderItem {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.newTeacherSelect {
+    height: 40px;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.newTeacherButton {
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .newTeacherItem {
+        width: 95% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .newTeacher {
+        margin-left: 0 !important;
+    }
+
+    .newTeacherItem>input {
+        width: 90% !important;
+    }
+
+    .newTeacherSelect {
+        width: 100% !important;
+    }
+
+}

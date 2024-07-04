@@ -1,0 +1,111 @@
+.newSlot {
+    flex: 4;
+    margin-left: 20px;
+}
+
+.newSlotTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NewStudentItem {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.newSlotItemContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newSlotForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.newSlotItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.newSlotItem>label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.newSlotItem>input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newSlotGender>input {
+    margin-top: 15px;
+}
+
+.newSlotGender>label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newSlotGenderItem {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.newSlotSelect {
+    height: 40px;
+    width: 105%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.newSlotButton {
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 586px) {
+    .newSlotItem {
+        width: 95% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .newSlot {
+        margin-left: 0 !important;
+    }
+
+    .newSlotItem>input {
+        width: 90% !important;
+    }
+
+    .newSlotSelect {
+        width: 100% !important;
+    }
+
+}

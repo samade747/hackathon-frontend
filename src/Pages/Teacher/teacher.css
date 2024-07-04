@@ -1,0 +1,195 @@
+.teacher {
+  flex: 4;
+  padding: 20px;
+}
+
+.teacherTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teacherAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.teacherContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.teacherShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.teacherUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 0px;
+}
+
+.teacherShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.teacherShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.teacherShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.teacherShowteachername {
+  font-weight: 600;
+}
+
+.teacherShowteacherTitle {
+  font-weight: 300;
+}
+
+.teacherShowBottom {
+  margin-top: 20px;
+}
+
+.teacherShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.teacherShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.teacherShowIcon {
+  font-size: 16px !important;
+}
+
+.teacherShowInfoTitle {
+  margin-left: 10px;
+}
+
+.teacherUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.teacherUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.teacherUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.teacherUpdateSelect {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+}
+
+.teacherUpdateItem>label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.teacherUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.teacherUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.teacherUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.teacherUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.teacherUpdateIcon {
+  cursor: pointer;
+}
+
+.teacherUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+
+
+@media (max-width: 576px) {
+  .teacher {
+    padding: 10px !important;
+  }
+
+  .teacherTitleContainer {
+    flex-direction: column;
+  }
+
+  .teacherAddButton {
+    margin-top: 20px;
+  }
+
+  .teacherUpdate,
+  .teacherShow {
+    margin-top: 20px !important;
+  }
+
+  .teacherUpdateForm {
+    flex-wrap: wrap-reverse;
+  }
+
+  .teacherUpdateRight {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+
+}

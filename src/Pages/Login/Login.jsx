@@ -41,7 +41,6 @@ const Login = () => {
           dispatch(loginSuccess(res.data.data));
           setMessage(res.data.message);
           setShowModal(true);
-
           if (res.data.message === "Login Successfull ✅") {
             setTimeout(() => {
               navigate("/");

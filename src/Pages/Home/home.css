@@ -1,0 +1,14 @@
+.home{
+    flex: 4;
+}
+
+.homeWidgets{
+    margin: 20px;
+}
+
+
+@media (min-width: 1024px) {
+    .homeWidgets {
+        display: flex !important;
+    }
+}

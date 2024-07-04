@@ -1,0 +1,206 @@
+.batch {
+  flex: 4;
+  padding: 20px;
+}
+
+.batchTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.batchAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.batchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.batchShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.batchUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 0px;
+}
+
+.batchShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.batchShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.batchShowTopTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.batchShowbatchname {
+  font-weight: 600;
+}
+
+.batchShowbatchTitle {
+  font-weight: 300;
+}
+
+.batchShowBottom {
+  margin-top: 20px;
+}
+
+.batchShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.batchShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.batchShowIcon {
+  font-size: 16px !important;
+}
+
+.batchShowInfoTitle {
+  margin-left: 10px;
+}
+
+.batchUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.batchUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.batchUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.batchUpdateItem>label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.batchUpdateInput {
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.batchUpdateSelect {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.batchUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.batchUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.batchUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.batchUpdateIcon {
+  cursor: pointer;
+}
+
+.batchUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+
+  .batchTitleContainer,
+  .batchContainer {
+    flex-direction: column;
+  }
+
+  .batch {
+    padding: 0px !important;
+  }
+
+  .batchUpdate,
+  .batchShow {
+    margin-top: 20px !important;
+  }
+
+  .batchAddButton {
+    margin-top: 20px;
+  }
+
+  .batchUpdateForm {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .batchUpdateTitle {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .batchUpdateRight {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+
+
+}

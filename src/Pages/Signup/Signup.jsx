@@ -64,7 +64,7 @@ const Signup = () => {
           }
         })
         .catch((err) => {
-          dispatch(signupFailure(err.response.data));
+          dispatch(signupFailure());
           setMessage(err.response.data.message);
           setShowModal(true);
           console.log(err);

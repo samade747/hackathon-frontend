@@ -1,0 +1,204 @@
+.slot {
+  flex: 4;
+  padding: 20px;
+}
+
+.slotTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slotAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.slotContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.slotShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.slotUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 0px;
+}
+
+.slotShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.slotShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slotShowTopTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.slotShowslotname {
+  font-weight: 600;
+}
+
+.slotShowslotTitle {
+  font-weight: 300;
+}
+
+.slotShowBottom {
+  margin-top: 20px;
+}
+
+.slotShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.slotShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.slotShowIcon {
+  font-size: 16px !important;
+}
+
+.slotShowInfoTitle {
+  margin-left: 10px;
+}
+
+.slotUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.slotUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.slotUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.slotUpdateItem>label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.slotUpdateSelect {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.slotUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.slotUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slotUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.slotUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.slotUpdateIcon {
+  cursor: pointer;
+}
+
+.slotUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+
+  .slotTitleContainer,.slotContainer {
+    flex-direction: column;
+  }
+
+  .slot {
+    padding: 0px !important;
+  }
+
+  .slotUpdate,
+  .slotShow {
+    margin-top: 20px !important;
+  }
+
+  .slotAddButton {
+    margin-top: 20px;
+  }
+
+  .slotUpdateForm {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .slotUpdateTitle {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slotUpdateRight {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+
+
+}
